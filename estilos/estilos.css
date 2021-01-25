@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #3a3d47;
+	font-family: verdana;
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+.container{
+	width: 1200px;
+	background: #3a3d47;
+	margin: 10px auto;
+}
+.superior{
+	background: black;
+	overflow: hidden;
+	border: 10px solid #3a3d47;
+}
+.logo,.menu{
+	float: left;
+	width: 500px;
+	padding: 35px;
+}
+.opciones li{
+	float: left;
+	list-style: none;
+}
+.opciones li a{
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+	border: 1px solid #EB7107;
+	border-radius: 15px;
+}
+.opciones li a:hover{
+	background: #EB7107;
+}
+
+.cuerpo{
+	overflow: hidden;
+	background: #3a3d47;
+}
+.caja{
+	float: left;
+	margin: 10px;
+}
+.efecto:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.titulo{
+	text-align: center;
+	padding: 20px 0 15px 0;
+	color: #EB7107;
+	font-size: 35px;
+}
+
+.pie{
+	background: black;
+	overflow: hidden;
+}
+.izquierda{
+	float: left;
+	width: 550px;
+	padding: 20px;
+}
+.derecha{
+	float: left;
+	width: 550px;
+	padding: 20px;
+}
+.abajo{
+	color: white;
+	font-size: 12px;
+	padding: 10px;
+}
+.redes{
+	text-align: center;
+	color: white;
+}
+
+@media only screen and (max-width: 380px){
+	.container,.superior,.redes,.abajo,.derecha,.izquierda,.pie,.titulo,.efecto,.caja,.cuerpo,.opciones{
+		width: 100%;
+	}
+}
